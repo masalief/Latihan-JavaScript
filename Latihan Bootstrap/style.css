@@ -1,0 +1,30 @@
+.atas a {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 13px;
+    height: 40px;
+}
+
+.rounded img {
+    border-radius: 25px;
+}
+
+.tombol button {
+    background-color: lightpink; 
+    border: none;
+    color: black;
+    padding: 3px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+.card-body p {
+    font-size: 15px;
+}
+
+.container img {
+    border-radius: 30px;
+}

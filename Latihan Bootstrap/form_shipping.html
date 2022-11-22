@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="latihan.js"></script>
+
+    <title>Latihan Bootstrap</title>
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="ml-4">
+            <img src="assets/logo.png" alt="Logo" class="logo" width="100px">
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto mt-2">
+            <a class="nav-item nav-link active" href="#">Showcase</a>
+            <a class="nav-item nav-link active" href="#">Catalog</a>
+            <a class="nav-item nav-link active" href="#">Delivery</a>
+            <a class="nav-item nav-link active" href="#">Rewards</a>
+          </div>
+        </div>
+        <div class="mr-4">
+            <img src="assets/cart-icon.png" alt="Chart">
+        </div>
+    </nav>
+
+    <div class="atas ml-4">
+        <nav class="navbar-light bg-light">
+            <a class="navbar-brand" href="#">Home</a>/
+            <a class="navbar-brand" href="#">Office Room</a>/
+            <a class="navbar-brand" href="index.html">Details</a>/
+            <a class="navbar-brand" href="form_shipping.html"><b> Shipping</b></a>
+        </nav>
+    </div>
+
+    <div class="alert alert-warning alert-dismissible fade show d-none" id="divAlert" role="alert">
+      <p class="p-0 m-0" id="textAlert"></p>
+      <button type="button" class="close" id="btnClose">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="row justify-content-center my-5">
+      <div class="col-4 border border-danger p-5 rounded " id="formmain">
+          <h1 class=" text-center">Shipping Form</h1>
+          <form class="mt-5" id="formshiping">
+              <div class="d-flex">
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">First Name</label>
+                      <input type="first" class="form-control" id="namaform" aria-describedby="emailHelp"
+                          placeholder="Enter your first name" required />
+                  </div>
+                  <div class="form-group mx-3">
+                      <label for="exampleInputPassword1">Phone number</label>
+                      <input type="phone" class="form-control" id="phoneform"
+                          placeholder="Enter phone number" required/>
+                  </div>
+              </div>
+
+              <div class="d-flex">
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">Last name</label>
+                      <input type="last" class="form-control" id="lastnameform" aria-describedby="emailHelp"
+                          placeholder="Enter your last name" required />
+                  </div>
+                  <div class="form-group mx-3">
+                      <label for="exampleInputPassword1">City</label>
+                      <input type="city" class="form-control" id="cityform" placeholder="Enter city" required/>
+                  </div>
+              </div>
+
+              <div class="d-flex">
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="emailform" aria-describedby="emailHelp"
+                          placeholder="Enter Email" required />
+                  </div>
+                  <div class="form-group mx-3">
+                      <label for="exampleInputPassword1">Postal Code</label>
+                      <input type="postal" class="form-control" id="postalform"
+                          placeholder="Enter postal code" required/>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <label for="exampleInputEmail1">Address</label>
+                  <textarea type="address" class="form-control" id="addressform" aria-describedby="emailHelp"
+                      placeholder="Enter address" required></textarea>
+              </div>
+
+              <button type="submit" class="btn rounded" style="background-color: salmon;">Submit</button>
+          </form>
+      </div>
+      <div class="d-none" id="result">
+        <h5></h5>
+        <p></p>
+        <a href="index.html" class="btn btn-outline-success" role="button" aria-pressed="true">Back</a>
+      </div>
+  </div>
+
+    <div class="footer">
+        <div class="tittle-footer d-flex justify-content-center mt-5">
+            <img src="assets/logo.png" alt="">
+        </div>
+        <div class="menu-footer d-flex flex-row justify-content-around mt-5 mb-5">
+            <div class="overview">
+                <a class="text-dark" href=""><b>Overview</b></a>
+                <br>
+                <a class="text-dark" href="">Shipping</a>
+                <br>
+                <a class="text-dark" href="">Refund</a>
+                <br>
+                <a class="text-dark" href="">Promotion</a>
+            </div>
+            <div class="company">
+                <a class="text-dark" href=""><b>Company</b></a>
+                <br>
+                <a class="text-dark" href="">About</a>
+                <br>
+                <a class="text-dark" href="">Career</a>
+                <br>
+                <a class="text-dark" href="">Contact Us</a>
+            </div>
+            <div class="explore">
+                <a class="text-dark" href=""><b>Explore</b></a>
+                <br>
+                <a class="text-dark" href="">Term & Conds</a>
+                <br>
+                <a class="text-dark" href="">Privacy Policy</a>
+                <br>
+                <a class="text-dark" href="">For Developer</a>
+            </div>
+        </div>
+        <hr>
+        <p style="text-align: center;">Copyright Mas Alief - Nopember 2022</p>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
